@@ -3,28 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quiz App</title>
+    <title>Create | Quiz App</title>
   </head>
   <body>
     <header class="quiz-title">
-      <h1>Quiz App</h1>
+      <h1>Create</h1>
     </header>
     <main class="scrolling-screen">
-      <section class="question">
-        <div class="bookmark-box"><a href="#">Bookmark</a></div>
-        <h2 class="question-title">Question:</h2>
-        <p class="question-paragraph">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt,
-          doloribus.
+      <form class="create-form">
+        <p>
+          <label
+            >Question:<br />
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </label>
         </p>
-        <p><button class="answer-button">Show answer</button></p>
-        <p class="hidden-answer">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde
-          recusandae obcaecati ea laboriosam sequi quae doloremque saepe vitae
-          quidem expedita temporibus cumque tempore, quis hic aperiam. Vel et ad
-          facere.
+        <p>
+          <label
+            >Answer:<br />
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+          </label>
         </p>
-      </section>
+        <p>
+          <label>Tags:<br /><input type="text" /></label>
+        </p>
+        <p><input type="submit" /></p>
+      </form>
     </main>
     <footer>
       <nav class="main-menu">
