@@ -3,6 +3,7 @@
   background-color: white;
   padding: 20px;
   border: 2px solid rgba(0, 0, 0, 0.2);
+  line-height: 1.5;
 }
 
 .card__heading {
