@@ -1,0 +1,14 @@
+.header {
+  position: relative;
+  background: var(--bar-color);
+  color: white;
+  margin: 0;
+  padding: 6px;
+}
+
+.header__heading {
+  font-size: 30px;
+  margin: 0;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}

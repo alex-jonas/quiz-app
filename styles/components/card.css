@@ -1,0 +1,32 @@
+.card {
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  border: 2px solid rgba(0, 0, 0, 0.2);
+}
+
+.card__heading {
+  color: var(--heading-color);
+  margin: 0;
+}
+
+.card__bmkcontainer {
+  background-color: var(--text-color);
+  padding: 4px;
+  float: right;
+  margin: -30px 0;
+}
+
+.card__bmkimg {
+  width: 40px;
+  margin-top: 6px;
+}
+
+.card__btn {
+  display: block;
+  margin: auto auto;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  background: var(--bg-color);
+}
