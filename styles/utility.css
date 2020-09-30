@@ -25,3 +25,7 @@
   border-left: 0;
   border-right: 0;
 }
+
+.bg-white {
+  background-color: white;
+}
