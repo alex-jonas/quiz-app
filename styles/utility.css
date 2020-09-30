@@ -34,9 +34,6 @@
   filter: invert();
 }
 
-.white-rect {
-  background-color: white;
-  padding: 20px;
-  line-height: 1.5;
-  margin: 30px 20px;
+.marg-t60 {
+  margin-top: 60px;
 }

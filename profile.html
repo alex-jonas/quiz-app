@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <title>Profile | Quiz App</title>
+    <title>Profile | QuizApp</title>
   </head>
   <body>
     <header class="header brdr-alpha brdr-bottom">
@@ -12,28 +12,45 @@
         <a class="header__link" href="/">QuizApp</a>
       </h1>
     </header>
-    <main class="scrolling-screen">
-      <section class="username">
-        <img src="http://via.placeholder.com/400x400" alt="" />
-        <h2>MaxMustermann</h2>
-      </section>
-      <section class="user-about">
-        <h2>About:</h2>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, at
-          adipisci! Asperiores eos iure reiciendis dolore incidunt?
-          Consequuntur, sequi. Aspernatur similique exercitationem ab impedit
-          tenetur commodi et alias laudantium deserunt!
-        </p>
-        <h2>Skills</h2>
-        <ul class="tag-list">
-          <li>Lorem ipsum</li>
-          <li>jadslsl</li>
-          <li>sadsd</li>
-          <li>sadsdsa</li>
-        </ul>
-      </section>
-      <form><input type="submit" /></form>
+    <main>
+      <section class="card brdr-alpha rad-7 shadow">
+        <h2 class="card__heading">Your Profile</h2>
+
+        <section class="profile">
+          <p>
+            <img
+              class="profile__photo"
+              src="http://via.placeholder.com/400x400"
+              alt=""
+            />
+          </p>
+          <h2>MaxMustermann</h2>
+        </section>
+
+        <section>
+          <h3>About you</h3>
+          <p class="card__paragraph">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi ab
+            numquam aperiam, veritatis natus sequi quis quos perspiciatis.
+            Blanditiis doloribus quis voluptatum minus molestias vitae, sapiente
+            sed minima ut obcaecati?
+          </p>
+          <h3>Skills</h3>
+          <ul class="tag-list unstyled-list">
+            <li>Lorem ipsum</li>
+            <li>Ladslsl</li>
+            <li>Badsd</li>
+            <li>Aadsdsa</li>
+            <li>dasjl</li>
+            <li>asfnkldnaosdjasl</li>
+            <li>aslasdmlö</li>
+          </ul>
+
+          <p class="card__paragraph marg-t60 ">
+            <button class="card__btn rad-7">Logout</button>
+          </p>
+        </section>
+
     </main>
     <footer>
       <nav class="navigation">

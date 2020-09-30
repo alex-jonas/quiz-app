@@ -1,0 +1,11 @@
+.profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  column-gap: 1.3em;
+}
+
+.profile__photo {
+  width: 100%;
+  clip-path: circle();
+}
