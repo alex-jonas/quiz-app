@@ -7,35 +7,81 @@
     <title>Create | Quiz App</title>
   </head>
   <body>
-    <header class="quiz-title">
-      <h1>Create</h1>
+    <header class="header brdr-alpha brdr-bottom">
+      <h1 class="header__heading">
+        <a class="header__link" href="/">QuizApp</a>
+      </h1>
     </header>
-    <main class="scrolling-screen">
-      <form class="create-form">
-        <p>
-          <label
-            >Question:<br />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </label>
-        </p>
-        <p>
-          <label
-            >Answer:<br />
-            <textarea name="" id="" cols="30" rows="10"></textarea>
-          </label>
-        </p>
-        <p>
-          <label>Tags:<br /><input type="text" /></label>
-        </p>
-        <p><input type="submit" /></p>
+    <main>
+      <form class="card brdr-alpha rad-7 shadow">
+        <h2 class="card__heading">Create Question</h2>
+        <div class="card__formular">
+          <p class="card__paragraph">
+            <label
+              ><strong>Question:</strong><br />
+              <textarea
+                class="card__textarea brdr-alpha"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+          </p>
+          <p class="card__paragraph">
+            <label
+              ><strong>Answer:</strong><br />
+              <textarea
+                class="card__textarea brdr-alpha"
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+              ></textarea>
+            </label>
+          </p>
+          <p class="card__paragraph">
+            <label
+              ><strong>Tags:</strong><br /><input
+                class="card__textarea card__textarea--oneline brdr-alpha"
+                type="text"
+                placeholder="foo,bar,laa,lee"
+            /></label>
+          </p>
+          <p class="card__paragraph">
+            <button class="card__btn rad-7">Create question</button>
+          </p>
+        </div>
       </form>
     </main>
     <footer>
-      <nav class="main-menu">
-        <a href="/">Home</a>
-        <a href="bookmark.html">Bookmarks</a>
-        <a href="create.html">Create</a>
-        <a href="profile.html">Profil</a>
+      <nav class="navigation">
+        <a class="navigation__link brdr-alpha" href="index.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/home-24px.svg"
+            alt="Home"
+        /></a>
+        <a class="navigation__link brdr-alpha" href="bookmark.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/bookmark-24px.svg"
+            alt="Bookmarks"
+        /></a>
+        <a
+          class="navigation__link navigation__link--active-page brdr-alpha"
+          href="create.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/create-24px.svg"
+            alt="Create"
+        /></a>
+        <a class="navigation__link brdr-alpha" href="profile.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/person-24px.svg"
+            alt="Profile"
+        /></a>
       </nav>
     </footer>
   </body>

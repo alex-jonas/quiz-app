@@ -7,8 +7,10 @@
     <title>Profile | Quiz App</title>
   </head>
   <body>
-    <header class="quiz-title">
-      <h1>Profil</h1>
+    <header class="header brdr-alpha brdr-bottom">
+      <h1 class="header__heading">
+        <a class="header__link" href="/">QuizApp</a>
+      </h1>
     </header>
     <main class="scrolling-screen">
       <section class="username">
@@ -34,11 +36,33 @@
       <form><input type="submit" /></form>
     </main>
     <footer>
-      <nav class="main-menu">
-        <a href="/">Home</a>
-        <a href="bookmark.html">Bookmarks</a>
-        <a href="create.html">Create</a>
-        <a href="profile.html">Profil</a>
+      <nav class="navigation">
+        <a class="navigation__link brdr-alpha" href="index.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/home-24px.svg"
+            alt="Home"
+        /></a>
+        <a class="navigation__link brdr-alpha" href="bookmark.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/bookmark-24px.svg"
+            alt="Bookmarks"
+        /></a>
+        <a class="navigation__link brdr-alpha" href="create.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/create-24px.svg"
+            alt="Create"
+        /></a>
+        <a
+          class="navigation__link navigation__link--active-page brdr-alpha"
+          href="profile.html"
+          ><img
+            class="navigation__icon invert"
+            src="img/person-24px.svg"
+            alt="Profile"
+        /></a>
       </nav>
     </footer>
   </body>

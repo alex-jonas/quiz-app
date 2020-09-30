@@ -15,10 +15,10 @@
 }
 
 .navigation__icon {
-  filter: invert();
   height: 30px;
 }
 
-.navigation__link:hover {
+.navigation__link:hover,
+.navigation__link--active-page {
   background: var(--link-color);
 }
