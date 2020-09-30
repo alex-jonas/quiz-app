@@ -1,18 +1,18 @@
 .header {
   position: relative;
   background: var(--bar-color);
-  color: white;
   margin: 0;
   padding: 3px;
+  color: white;
 }
 
 .header__heading {
-  font-size: 30px;
   margin: 0;
+  font-size: 30px;
   text-align: center;
   font-family: 'Damion', cursive;
 }
 
 .header__link {
-  color: #fff;
+  color: white;
 }
